@@ -95,7 +95,7 @@
 .form-login form {
   display: grid;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .form-register form {
@@ -137,7 +137,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -25px;
+  margin-top: -15px;
   color: #000000b6;
   font-size: 12px;
 }
@@ -173,9 +173,9 @@
   }
   .form-register .iconX,
   .form-Recover .iconX {
-    margin-left: 101%;
+    margin-left: 109%;
   }
-   .form-Recover{
+  .form-Recover{
     height: 200px;
   }
   .form-Recover h2{
@@ -188,6 +188,5 @@
   .form-register,
   .form-Recover {
     width: 65vw;
-  }
-  
+  } 
 }
