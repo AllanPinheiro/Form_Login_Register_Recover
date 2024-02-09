@@ -175,8 +175,11 @@
   .form-Recover .iconX {
     margin-left: 101%;
   }
-  .form-Recover{
-    height: 300px;
+   .form-Recover{
+    height: 200px;
+  }
+  .form-Recover h2{
+    font-size: 37px;
   }
 }
 
