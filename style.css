@@ -189,4 +189,8 @@
   .form-Recover {
     width: 65vw;
   } 
+  .form-register .iconX,
+  .form-Recover .iconX {
+    margin-left: 102%;
+  }
 }
