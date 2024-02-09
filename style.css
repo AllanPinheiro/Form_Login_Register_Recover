@@ -189,9 +189,9 @@
    .link-form{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 47px;
     margin-top: -25px;
     color: #000000b6;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
