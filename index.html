@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--CONTAINER-->
+
+    <div class="container">
+      <div class="box">
+        <!--FORM LOGIN-->
+
+        <div class="form-login" id="form-login">
+          <div class="text-login">
+            <p>Tenho conta</p>
+            <h2>Iniciar sessão!</h2>
+          </div>
+          <form action="" id="validarLogin">
+            <input
+              type="email"
+              id="inEmailLogin"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="password"
+              id="inPasswordLogin"
+              placeholder="Senha"
+              required
+            />
+            <input type="submit" value="Iniciar sessão" />
+          </form>
+          <div class="link-form">
+            <span style="display: flex; gap: 3px; align-items: center"
+              ><input type="checkbox" id="inCheckboxLogin" /> Lembrar-me</span
+            >
+            <a href="#" onclick="openRegister()">Registro</a>
+            <a href="#" onclick="openRecover()">Esqueci minha senha</a>
+          </div>
+        </div>
+
+        <!--FORM REGISTER-->
+
+        <div class="form-register" id="form-register">
+          <span class="iconX" onclick="offRegister()">X</span>
+          <div class="text-register">
+            <p>Não é membro</p>
+            <h2>Inscrição!</h2>
+          </div>
+          <form action="" id="validarRegister">
+            <input
+              type="text"
+              placeholder="Nome completo"
+              id="inNomeRegister"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              id="inEmailRegister"
+              required
+            />
+            <input
+              type="password"
+              placeholder="Senha"
+              id="inPasswordRegister"
+              required
+            />
+            <input type="submit" value="Inscrição" />
+          </form>
+        </div>
+
+        <!--RECUPERA SENHA-->
+
+        <div class="form-Recover" id="form-Recover">
+          <span class="iconX" onclick="offRecover()">X</span>
+          <div class="text-Recover">
+            <p>Um email será enviado para você</p>
+            <h2>Recupera Senha!</h2>
+          </div>
+          <form action="" id="validarRecover">
+            <input type="email" placeholder="Email" id="inEmailRecover" required/>
+            <input type="submit" value="Recupera Senha" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
